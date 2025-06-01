@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for WikimediaProducer" enabled="true">
+      <profile name="Annotation profile for locationPublisher" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="locationPublisher" />
         <module name="WikimediaProducer" />
         <module name="WikimediaConsumer" />
+        <module name="locationConsumer" />
         <module name="Kafka-App" />
       </profile>
     </annotationProcessing>
@@ -25,6 +27,8 @@
       <module name="Kafka-App" options="-parameters" />
       <module name="WikimediaConsumer" options="-parameters" />
       <module name="WikimediaProducer" options="-parameters" />
+      <module name="locationConsumer" options="-parameters" />
+      <module name="locationPublisher" options="-parameters" />
     </option>
   </component>
 </project>

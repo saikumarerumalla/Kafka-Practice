@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Kafka-App/pom.xml" />
         <option value="$PROJECT_DIR$/WikimediaConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/WikimediaProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/locationConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/locationPublisher/pom.xml" />
       </list>
     </option>
   </component>

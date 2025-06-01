@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/Kafka-App/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WikimediaConsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WikimediaProducer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/locationConsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/locationPublisher/src/main/java" charset="UTF-8" />
   </component>
 </project>
